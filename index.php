@@ -122,7 +122,7 @@
         foreach ($locations as $k=>$location)
         {
           $url = 'http://'.$location.':2605/export';
-          $raw = file_get_contents($url,FILE_TEXT,null,0,25*1024*1024);
+          $raw = file_get_contents($url,FILE_TEXT);
           $raw_files[$k]=$raw;
           $size = strlen($raw);
           if ($size==0)
