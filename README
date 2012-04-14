@@ -1,0 +1,19 @@
+
+This is a php script that downloads multiple Bit Meter export files and combines them.
+It then displays total usage for each day and a graphic representation of who used what.
+
+It requires bit meter to be running on all computers with remote access enabled.
+http://codebox.org.uk/pages/bitmeteros
+
+And then a php server to run the script.
+may i sugest http://www.wampserver.com/en/ if you dont have one.
+
+Things still to do
+
+1) work out why there are disparity between export files.
+A lot of times lines are missing for the end of export files.
+In some very unusual cases blocks of data has been missing form the middle of the files.
+Is this my fault or Bit Meters ?
+
+2) Build it into the Bit Meter Client so you dont need a brain and a php server to run it
+
